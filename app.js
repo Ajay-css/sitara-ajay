@@ -88,6 +88,9 @@ function takeCommand(message) {
         speak("Sure sir , Opening Notepad");
         window.open("Notepad://");
     }
+    else if (message.includes("who created you") || message.includes("who is your creator")) {
+        speak("I was created by Aajay Aarumugam, and paandi maama");
+    }
     else if (message.includes("i love you")) {
         speak("I Love You Paaandi Maama");
     }

@@ -89,7 +89,7 @@ function takeCommand(message) {
         window.open("Notepad://");
     }
     else if (message.includes("i love you")) {
-        speak("I Love You Paandi Maama");
+        speak("I Love You Paaandi Maama");
     }
     else if (message.includes("open visual studio code") || message.includes("open vs code")) {
         speak("Sure sir , Opening Visual Studio Code");

@@ -91,6 +91,9 @@ function takeCommand(message) {
     else if (message.includes("i love you")) {
         speak("I Love You Paaandi Maama");
     }
+    else if (message.includes("i love you akka")) {
+        speak("I Love You Meena Akka");
+    }
     else if (message.includes("open visual studio code") || message.includes("open vs code")) {
         speak("Sure sir , Opening Visual Studio Code");
         window.open("https://vscode.dev", "_blank");

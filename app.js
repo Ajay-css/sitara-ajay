@@ -88,6 +88,9 @@ function takeCommand(message) {
         speak("Sure sir , Opening Notepad");
         window.open("Notepad://");
     }
+    else if (message.includes("i love you")) {
+        speak("I Love You Paandi Maama");
+    }
     else if (message.includes("open visual studio code") || message.includes("open vs code")) {
         speak("Sure sir , Opening Visual Studio Code");
         window.open("https://vscode.dev", "_blank");
@@ -137,7 +140,7 @@ function takeCommand(message) {
     }
     else if (message.includes("open whatsapp") || message.includes("open the whatsapp")) {
         speak("Sure sir , Opening WhatsApp");
-        window.open("https://web.whatsapp.com", "_blank");
+        window.open("whatsapp://");
     }
     else if (message.includes("open gmail") || message.includes("open the gmail")) {
         speak("Sure sir , Opening Gmail");

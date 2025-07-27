@@ -108,23 +108,23 @@ function takeCommand(message) {
         speak("Sure sir , Opening Google");
         window.open("https://www.google.com", "_blank");
     }
-    else if (message.includes("open youtube")) {
+    else if (message.includes("open youtube") || message.includes("open the youtube")) {
         speak("Sure sir , Opening Youtube");
         window.open("https://www.youtube.com", "_blank");
     }
-    else if (message.includes("open facebook")) {
+    else if (message.includes("open facebook") || message.includes("open the facebook")) {
         speak("Sure sir , Opening facebook");
         window.open("https://www.facebook.com", "_blank");
     }
-    else if (message.includes("open twitter")) {
+    else if (message.includes("open twitter") || message.includes("open the twitter")) {
         speak("Sure sir , Opening twitter");
         window.open("https://www.twitter.com", "_blank");
     }
-    else if (message.includes("open instagram")) {
+    else if (message.includes("open instagram") || message.includes("open the instagram")) {
         speak("Sure sir , Opening instagram");
         window.open("https://www.instagram.com", "_blank");
     }
-    else if (message.includes("open calculator")) {
+    else if (message.includes("open calculator") || message.includes("open the calculator")) {
         speak("Sure sir , Opening calculator");
         window.open("Calculator://");
     }
@@ -135,23 +135,23 @@ function takeCommand(message) {
         speak("Goodbye Sir, have a nice day");
         window.close();
     }
-    else if (message.includes("open whatsapp")) {
+    else if (message.includes("open whatsapp") || message.includes("open the whatsapp")) {
         speak("Sure sir , Opening WhatsApp");
         window.open("https://web.whatsapp.com", "_blank");
     }
-    else if (message.includes("open gmail")) {
+    else if (message.includes("open gmail") || message.includes("open the gmail")) {
         speak("Sure sir , Opening Gmail");
         window.open("https://mail.google.com", "_blank");
     }
-    else if (message.includes("open linkedin")) {
+    else if (message.includes("open linkedin") || message.includes("open the linkedin")) {
         speak("Sure sir , Opening LinkedIn");
         window.open("https://www.linkedin.com", "_blank");
     }
-    else if (message.includes("open spotify")) {
+    else if (message.includes("open spotify") || message.includes("open the spotify")) {
         speak("Sure sir , Opening Spotify");
         window.open("https://www.spotify.com", "_blank");
     }
-    else if (message.includes("play music")) {
+    else if (message.includes("play music") || message.includes("play some music") || message.includes("play a song")) {
         speak("Playing music for you");
         window.open("https://www.youtube.com/results?search_query=music", "_blank");
     }

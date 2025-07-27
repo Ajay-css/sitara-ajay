@@ -29,7 +29,7 @@ h1 {
 }
 
 .name {
-    background: linear-gradient(to right, #4b6cb7, #24417a);
+    background: linear-gradient(to right, #153379, #0457fd);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 40px;

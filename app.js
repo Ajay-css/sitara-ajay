@@ -73,7 +73,7 @@ function takeCommand(message) {
         let time = date.toLocaleTimeString();
         speak(`The current time is ${time}`);
     }
-    else if (message.includes("what is the date") || message.includes("tell the date")) {
+    else if (message.includes("what is the date") || message.includes("tell me the date")) {
         let date = new Date();
         let todayDate = date.toLocaleDateString();
         speak(`Today's date is ${todayDate}`);

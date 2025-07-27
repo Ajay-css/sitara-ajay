@@ -25,10 +25,6 @@ function wishMe() {
     }
 }
 
-window.addEventListener('load', () => {
-    wishMe();
-})
-
 btn.addEventListener("click", () => {
     btn.style.display = 'none';
     voice.style.display = 'block';
@@ -56,6 +52,9 @@ function takeCommand(message) {
     }
     else if (message.includes("what is your name") || message.includes("who are you")) {
         speak("I am Sitara, your personal virtual assistant created by Aajay Aarumugam");
+    }
+    else if (message.includes("sitara")) {
+        wishMe() + speak("How can I Help You Today ?")
     }
     else if (message.includes("how are you") || message.includes("how are you doing")) {
         speak("I am fine Sir, Thank you for asking, How can I help you?");

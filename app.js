@@ -73,7 +73,7 @@ function takeCommand(message) {
         let time = date.toLocaleTimeString();
         speak(`The current time is ${time}`);
     }
-    else if (message.includes("what is the today date") || message.includes("tell me the date")) {
+    else if (message.includes("what is the today date") || message.includes("tell the date")) {
         let date = new Date();
         let todayDate = date.toLocaleDateString();
         speak(`Today's date is ${todayDate}`);
@@ -89,7 +89,7 @@ function takeCommand(message) {
         window.open("Notepad://");
     }
     else if (message.includes("who created you") || message.includes("who is your creator")) {
-        speak("I was created by Aajay Aarumugam, and paandi maama");
+        speak("I was created by Aajay Aarrummugam");
     }
     else if (message.includes("i love you")) {
         speak("I Love You Paaandi Maama");

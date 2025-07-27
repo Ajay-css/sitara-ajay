@@ -53,7 +53,7 @@ function takeCommand(message) {
     else if (message.includes("what is your name") || message.includes("who are you")) {
         speak("I am Sitara, your personal virtual assistant created by Aajay Aarumugam");
     }
-    else if (message.includes("sitara")) {
+    else if (message.includes("good morning")) {
         wishMe() + speak("How can I Help You Today ?")
     }
     else if (message.includes("how are you") || message.includes("how are you doing")) {

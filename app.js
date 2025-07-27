@@ -56,6 +56,12 @@ function takeCommand(message) {
     else if (message.includes("good morning")) {
         wishMe() + speak("How can I Help You Today ?")
     }
+    else if (message.includes("good afternoon")) {
+        wishMe() + speak("How can I Help You Today ?")
+    }
+    else if (message.includes("good evening")) {
+        wishMe() + speak("How can I Help You Today ?")
+    }
     else if (message.includes("how are you") || message.includes("how are you doing")) {
         speak("I am fine Sir, Thank you for asking, How can I help you?");
     }

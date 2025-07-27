@@ -146,7 +146,7 @@ function takeCommand(message) {
     }
     else if (message.includes("open whatsapp") || message.includes("open the whatsapp")) {
         speak("Sure sir , Opening WhatsApp");
-        window.open("Whatsapp://");
+        window.open("whatsapp://");
     }
     else if (message.includes("open gmail") || message.includes("open the gmail")) {
         speak("Sure sir , Opening Gmail");

@@ -48,7 +48,7 @@ function takeCommand(message) {
     btn.style.display = 'flex';
     voice.style.display = 'none';
     message = message.toLowerCase();
-    if (message.includes("hello") && message.includes("hi") &&
+    if (message.includes("hello") || message.includes("hi") ||
         message.includes("hey") || message.includes("hi sitara") || message.includes("hello sitara")) {
         {
             speak("Hello Sir, How can I help you?");
@@ -125,6 +125,30 @@ function takeCommand(message) {
     }
     else if (message.includes("thank you") || message.includes("thanks")) {
         speak("You are welcome Sir, if you need any help , I am here to help you");
+    }
+    else if (message.includes("goodbye") || message.includes("bye")) {
+        speak("Goodbye Sir, have a nice day");
+        window.close();
+    }
+    else if (message.includes("open whatsapp")) {
+        speak("Opening WhatsApp");
+        window.open("https://web.whatsapp.com", "_blank");
+    }
+    else if (message.includes("open gmail")) {
+        speak("Opening Gmail");
+        window.open("https://mail.google.com", "_blank");
+    }
+    else if (message.includes("open linkedin")) {
+        speak("Opening LinkedIn");
+        window.open("https://www.linkedin.com", "_blank");
+    }
+    else if (message.includes("open spotify")) {
+        speak("Opening Spotify");
+        window.open("https://www.spotify.com", "_blank");
+    }
+    else if (message.includes("play music")) {
+        speak("Playing music for you");
+        window.open("https://www.youtube.com/results?search_query=music", "_blank");
     }
     else {
         let finalText = "this is what i found on internet regarding" + message.replace("sitara", "");

@@ -80,47 +80,47 @@ function takeCommand(message) {
         speak(`Today is ${day}`);
     }
     else if (message.includes("open notepad")) {
-        speak("Opening Notepad");
+        speak("Sure sir , Opening Notepad");
         window.open("Notepad://");
     }
     else if (message.includes("open visual studio code") || message.includes("open vs code")) {
-        speak("Opening Visual Studio Code");
+        speak("Sure sir , Opening Visual Studio Code");
         window.open("https://vscode.dev", "_blank");
     }
     else if (message.includes("open command prompt") || message.includes("open cmd")) {
-        speak("Opening Command Prompt");
+        speak("Sure sir , Opening Command Prompt");
         window.open("cmd://");
     }
     else if (message.includes("open settings")) {
-        speak("Opening Settings");
+        speak("Sure sir , Opening Settings");
         window.open("Settings://");
     }
     else if (message.includes("open file explorer") || message.includes("open my computer")) {
-        speak("Opening File Explorer");
+        speak("Sure sir , Opening File Explorer");
         window.open("FileExplorer://");
     }
     else if (message.includes("open google") || message.includes("search on google")) {
-        speak("Opening Google");
+        speak("Sure sir , Opening Google");
         window.open("https://www.google.com", "_blank");
     }
     else if (message.includes("open youtube")) {
-        speak("Opening Youtube");
+        speak("Sure sir , Opening Youtube");
         window.open("https://www.youtube.com", "_blank");
     }
     else if (message.includes("open facebook")) {
-        speak("Opening facebook");
+        speak("Sure sir , Opening facebook");
         window.open("https://www.facebook.com", "_blank");
     }
     else if (message.includes("open twitter")) {
-        speak("Opening twitter");
+        speak("Sure sir , Opening twitter");
         window.open("https://www.twitter.com", "_blank");
     }
     else if (message.includes("open instagram")) {
-        speak("Opening instagram");
+        speak("Sure sir , Opening instagram");
         window.open("https://www.instagram.com", "_blank");
     }
     else if (message.includes("open calculator")) {
-        speak("Opening calculator");
+        speak("Sure sir , Opening calculator");
         window.open("Calculator://");
     }
     else if (message.includes("thank you") || message.includes("thanks")) {
@@ -131,19 +131,19 @@ function takeCommand(message) {
         window.close();
     }
     else if (message.includes("open whatsapp")) {
-        speak("Opening WhatsApp");
+        speak("Sure sir , Opening WhatsApp");
         window.open("https://web.whatsapp.com", "_blank");
     }
     else if (message.includes("open gmail")) {
-        speak("Opening Gmail");
+        speak("Sure sir , Opening Gmail");
         window.open("https://mail.google.com", "_blank");
     }
     else if (message.includes("open linkedin")) {
-        speak("Opening LinkedIn");
+        speak("Sure sir , Opening LinkedIn");
         window.open("https://www.linkedin.com", "_blank");
     }
     else if (message.includes("open spotify")) {
-        speak("Opening Spotify");
+        speak("Sure sir , Opening Spotify");
         window.open("https://www.spotify.com", "_blank");
     }
     else if (message.includes("play music")) {

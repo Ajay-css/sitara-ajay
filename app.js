@@ -95,7 +95,7 @@ function takeCommand(message) {
         speak("I Love You Paaandi Maama");
     }
     else if (message.includes("i hate you")) {
-        speak("I Love You Meena Akka");
+        speak("I Love You Abii Akka");
     }
     else if (message.includes("open visual studio code") || message.includes("open vs code")) {
         speak("Sure sir , Opening Visual Studio Code");
